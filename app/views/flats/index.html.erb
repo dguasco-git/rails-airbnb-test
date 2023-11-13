@@ -1,0 +1,7 @@
+<% @flats.each do |flat| %>
+  <p><%= flat.name %></p>
+  <p><%= flat.price %></p>
+  <p><%= flat.address %></p>
+  <p><%= flat.owner %></p>
+  <%=link_to "Voir plus", flat_path(flat) %>
+<% end %>
