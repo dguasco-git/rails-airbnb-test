@@ -12,3 +12,4 @@ puts "creating in progress"
   Flat.create(name: 'fifi', price:150, address:"Toulouse la belle", owner:"JASSY")
 end
 puts "finish"
+
